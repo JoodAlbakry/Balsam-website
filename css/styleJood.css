@@ -1,0 +1,340 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #EEE9DA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*height: 100vh;*/
+    margin: 10;
+}
+
+header {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    color: #6096B4; 
+    text-align: center;
+    font-size: 3em; 
+    margin: 0 auto;
+}
+
+
+
+.container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    background-color: #BDCDD6; 
+    border-radius: 15px;
+    padding: 20px;
+    width: 100%;
+    color: white;
+    font-size: 1.2em;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    transition: transform .2s; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.card:hover {
+    transform: scale(1.05); 
+}
+
+.card form {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card a {
+    color: white;
+}
+
+.register-button, #login-button, #reset-button,#register-button  {
+    font-family: 'Georgia', serif;
+    display: inline-block;
+    background-color: #265073; 
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color .2s;
+}
+
+.register-button:hover, #login-button:hover {
+background-color: #9AD0C2; 
+}
+
+.cards {
+    background-color: #BDCDD6;
+    border-radius: 15px;
+    padding: 20px;
+    width: 500px;
+    color: white;
+    font-size: 1.2em;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    transition: transform .2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.cards:hover {
+    transform: scale(1.05);
+}
+
+.cards img {
+    width: 200px;
+    height: 200px;
+}
+
+.cards a {
+    color: white;
+    text-decoration: none;
+}
+
+.cards-title {
+    margin-top: 10px;
+}
+
+
+.containers {
+    margin-top: 900px; /* Adjust this value based on the height of your header */
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+/*---JOOD---*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 10px 20px; /* Adjust padding as needed */
+    background-color: #6096B4; /* Set background color */
+    z-index: 1;
+}
+
+.navbar h1{
+    color: #EEE9DA;
+}
+
+.nav-icons{
+    margin-right: 40px;
+}
+
+.nav-icons a {
+    margin-left: 20px; /* Adjust spacing between icons */
+}
+
+#logo {
+    margin-left: 40px;
+    height: 85px;
+    width: 190px;    
+}
+
+.search-container {
+    text-align: center;
+    margin-top: 150px; /* 970 */ 
+    margin-bottom: 2px;
+}
+
+.search-container input[type="text"] {
+    height: 30px;
+    width: 250px; /* Set the desired width */
+    padding: 10px; /* Add padding to maintain spacing */
+    font-size: 16px; /* Optionally adjust font size */
+}
+
+.search-button:hover {
+    background-color: #9AD0C2;
+}
+
+.containers-products {
+    margin-top: 100px; /* Adjust this value based on the height of your header */
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-container {
+    margin-top: 5px; 
+    margin-bottom: 2px;
+}
+
+.card-title-product {
+    margin-top: 10px;
+    color: #074173;
+    text-decoration: none;
+}
+
+.cards p{
+    color: #074173;
+    font-size: 1.17em;
+}
+
+.card-product {
+    background-color: #BDCDD6; 
+    border-radius: 15px;
+    padding: 20px;
+    width: 100%;
+    color: white;
+    font-size: 1.2em;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    transition: transform .2s; 
+    display: flex;
+    flex-direction: column;
+    margin-top: 190px;
+    
+}
+
+.product-image {
+    width: 330px;
+    height: 330px;
+    float: left;
+    padding-right: 55px;
+    padding-top: 80px;
+}
+.product-title {
+    font-size: 40px;
+    margin-top: 10px;
+    text-align: center;
+    color: white; 
+    text-shadow: 0 0 9px black;
+}
+
+.product-title-blood {
+    font-size: 35px;
+    margin-top: 10px;
+    text-align: center;
+    color: white; 
+    text-shadow: 0 0 9px black;
+}
+ #product-info{
+    color: black;
+    font-size: 24px;
+ }
+
+.add-to-cart {
+    display: flex;
+    margin-top: 50px;
+    margin-left:95px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #074173;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-to-cart-img {
+    height: 100px;
+    width: 150px;
+}
+.view-cart {
+    display: flex;
+    font-size: 13px;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    margin-top: 10px;
+}
+
+.review-form{
+    margin-top: 10px;
+    margin-right:20px ;
+    text-align: right;
+    align-items: right;
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+input[type="submit"] {
+    font-family: 'Georgia', serif;
+    padding: 8px 20px;
+    background-color: #265073;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#back-button, .search-button{
+    font-family: 'Georgia', serif;
+    display: inline-block;
+    background-color: #265073; 
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color .2s;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+
+
+footer {
+    background-color: #6096B4;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+    margin-top: 50px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+
+.review{
+    font-family: 'Georgia', serif;
+    /* display: inline-block; */
+    background-color: #265073; 
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    border-color: black;
+    transition: background-color .2s;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 1.2em;
+      /* font-weight: bold; */
+     /* font-size: 20px; */  
+}
+

@@ -1,0 +1,30 @@
+[
+    {
+        "productId": 1,
+        "productName": "Medical Bed",
+        "productPrice": 600,
+        "productDescription": "Medical beds are designed with the user's comfort and health in mind. They come with various features:\n\n1- Adjustable Heights: Our beds can be easily adjusted to different heights for comfort and ease of use.\n\n2- Side Rails: For safety, our beds come with side rails to prevent falls.\n\n",
+        "productImage": "img/medical bed.png"
+    },
+    {
+        "productId": 2,
+        "productName": "Blood Pressure Monitor",
+        "productPrice": 80,
+        "productDescription": "Omron HEM 7124 features Advanced Accuracy Technology, Bluetooth connectivity with the OMRON Connect app, and an Irregular Heartbeat Symbol, ensuring precise and reliable readings.",
+        "productImage": "img/blood pr.png"
+    },
+    {
+        "productId": 3,
+        "productName": "Folding Walker",
+        "productPrice": 55,
+        "productDescription": "A Folding Walker with adjustable handlebar heights, a reliable braking system, and a folding mechanism ensures mobility aid for individuals with limited mobility.",
+        "productImage": "img/walker.png"
+    },
+    {
+        "productId": 4,
+        "productName": "Blood Sugar Monitor",
+        "productPrice": 150,
+        "productDescription": "Measures glucose levels in the bloodstream using a blood sample, a test strip, and a glucose meter, offering quick and accurate diabetes management insights.",
+        "productImage": "img/Blood sugar.png"
+    }
+]

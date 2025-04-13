@@ -1,0 +1,18 @@
+<website>
+    <webpages>
+        <header>
+            <title>BALSAM</title>
+            <logo src="img/Logo.png" alt="Balsam Logo" link="home.php" />
+            <nav>
+                <icon src="img/home icon.png" alt="Home" link="home.php" />
+                <icon src="img/cart icon.png" alt="Cart" link="shoppingCart.php" />
+                <icon src="img/logout-icon.png" alt="Logout" link="index.php" />
+            </nav>
+        </header>
+
+        
+        <footer>
+            <text>© 2025 BALSAM. All rights reserved</text>
+        </footer>
+    </webpages>
+</website>

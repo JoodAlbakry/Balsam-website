@@ -1,0 +1,100 @@
+/* sty.css */
+
+body {
+  font-family: 'Georgia', serif;
+  background-color: #EEE9DA;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.card {
+  background-color:  #BDCDD6;
+  border-radius: 5px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  color: white;
+}
+
+.logo img {
+  display: block; 
+  margin: 0 auto;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.h {
+  text-align: center;
+  margin-bottom: 20px;
+ color: #265073;
+}
+
+.myComboBox {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+textarea {
+  width: 80%;
+  padding: 10px;
+  height:40%;
+  border: 1px solid   #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+  .input-group button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #265073;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+button {
+  background-color: #265073;
+
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #85b8d5;
+}
+
+#result {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+footer {
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  margin-top: auto; /* يجعل الفوتر دائمًا أسفل الصفحة */
+  color: white;
+}
+
+footer p {
+  margin: 0;
+}
+  

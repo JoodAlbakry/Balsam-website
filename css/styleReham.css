@@ -1,0 +1,229 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #EEE9DA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 10;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    color: #6096B4;
+    text-align: center;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 0; 
+    margin-bottom: 20px; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 10px 20px;
+    background-color: #6096B4;
+}
+
+.navbar h1 {
+    color: #EEE9DA;
+
+}
+
+.nav-icons {
+    margin-right: 40px;
+}
+
+    .nav-icons a {
+        margin-left: 20px; 
+    }
+
+#logo {
+    margin-left: 40px;
+    height: 85px;
+    width: 190px;
+}
+
+.spicea {
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    background-color: #BDCDD6; 
+    border-radius: 15px;
+    padding: 20px;
+    width: 100%;
+    color: white;
+    font-size: 1.2em;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    transition: transform .2s; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.card:hover {
+    transform: scale(1.05); 
+}
+
+.card form {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card a {
+    color: white;
+}
+
+.register-button, #login-button, #reset-button,#register-button {
+    font-family: 'Georgia', serif;
+    display: inline-block;
+    background-color: #265073; 
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color .2s;
+}
+
+    .register-button:hover, #login-button:hover {
+        background-color: #9AD0C2; 
+    }
+
+ 
+
+        .cards {
+            background-color: #BDCDD6;
+            border-radius: 15px;
+            padding: 20px;
+            width: 500px;
+            color: white;
+            font-size: 1.2em;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            transition: transform .2s;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 10px;
+        }
+
+        .cards:hover {
+            transform: scale(1.05);
+        }
+
+        .cards img {
+            width: 200px;
+            height: 200px;
+        }
+
+        .cards a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .cards-title {
+            margin-top: 10px;
+        }
+
+
+.containers {
+    margin-top: 900px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+
+.form-group {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #BDCDD6;
+
+}
+
+
+    .form-group label {
+        font-weight: bold;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group select,
+    .form-group textarea {
+        width: 60%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        display: block;
+
+    }
+
+    .form-group:hover {
+        transform: scale(1.05);
+    }
+
+    .form-group img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .form-group a {
+        color: white;
+        text-decoration: none;
+
+    }
+.spaced {
+    margin-top: 50px;
+}
+
+
+footer {
+    background-color: #6096B4;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+    margin-top: 50px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+    

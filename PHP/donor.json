@@ -1,0 +1,37 @@
+[
+    {
+        "productId": 21,
+        "productName": "Digital Thermometer",
+        "productPrice": 0,
+        "productDescription": "A digital thermometer is an essential device for accurately measuring body temperature. It provides fast and reliable readings, helping to detect fever or abnormal temperature changes. Available in oral, ear, and forehead versions, digital thermometers are easy to use and provide precise results in a matter of seconds, making them ideal for both home and hospital use.",
+        "productImage": "https:\/\/www.cnwtc.com\/uploads\/202132262\/body-forehead-handheld-thermometer-medical38582866167.jpg"
+    },
+    {
+        "productId": 22,
+        "productName": "Blood Pressure Monitor",
+        "productPrice": 0,
+        "productDescription": "A blood pressure monitor allows for the easy monitoring of blood pressure at home or in clinical settings. It typically features an automatic cuff that inflates and deflates with the press of a button. Regular use of this device helps track blood pressure fluctuations and assists in managing conditions like hypertension, making it a vital tool for people with cardiovascular concerns.",
+        "productImage": "https:\/\/images-na.ssl-images-amazon.com\/images\/I\/51Vh-YcSGwL.jpg"
+    },
+    {
+        "productId": 23,
+        "productName": "Pulse Oximeter",
+        "productPrice": 0,
+        "productDescription": "This small, portable device measures the oxygen saturation level in the blood, offering critical information about respiratory function. By clipping onto the finger, it provides readings of oxygen levels and pulse rate, making it a handy tool for people with respiratory diseases or those recovering after surgery, ensuring they are maintaining adequate oxygen levels.",
+        "productImage": "https:\/\/m.media-amazon.com\/images\/I\/6189MAMYiqL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "productId": 24,
+        "productName": "Wheelchair",
+        "productPrice": 0,
+        "productDescription": "A wheelchair is a mobility aid that allows individuals with physical disabilities or injuries to move more easily. Wheelchairs come in various designs, including manual and electric models, to suit different levels of need. With features like adjustable footrests and armrests, they can be customized for comfort and support, ensuring greater independence for users.",
+        "productImage": "https:\/\/vmscart.com\/cdn\/shop\/files\/VMSCarelineFoldableWheelchairSELECTPLUSProfileImage-1.png?v=1683976167&width=1445"
+    },
+    {
+        "productId": 5,
+        "productName": "First Aid Kit",
+        "productDescription": "A first aid kit is a comprehensive set of medical supplies used to treat minor injuries and ailments. It typically includes bandages, antiseptic wipes, gauze pads, scissors, tweezers, and pain relievers. Essential for both home and travel use, a well-stocked first aid kit ensures you can respond quickly to injuries and accidents.",
+        "productImage": "https:\/\/m.media-amazon.com\/images\/I\/71iPD9Ik02L.jpg",
+        "productPrice": 0
+    }
+]
